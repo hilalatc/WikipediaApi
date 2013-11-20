@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="IdProvider" IDEtalkID="07DF450977B5C5FEC9FB5136A9E24E74" />
-  <component name="ProjectDictionaryState">
-    <dictionary name="Hilal" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
   </component>
+  <component name="IdProvider" IDEtalkID="07DF450977B5C5FEC9FB5136A9E24E74" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
