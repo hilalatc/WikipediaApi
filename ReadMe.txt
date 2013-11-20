@@ -1,0 +1,1 @@
+Wikitext parser iþlemini yaptým.
