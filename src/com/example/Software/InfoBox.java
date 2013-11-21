@@ -8,4 +8,11 @@ package com.example.Software;
  * To change this template use File | Settings | File Templates.
  */
 public class InfoBox {
+    String infoBoxWikiText = null;
+    InfoBox(String infoBoxWikiText) {
+        this.infoBoxWikiText = infoBoxWikiText;
+    }
+    public String dumpRaw() {
+        return infoBoxWikiText;
+    }
 }
