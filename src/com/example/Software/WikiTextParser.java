@@ -1,5 +1,8 @@
 package com.example.Software;
 
+import java.util.HashMap;
+import java.util.Vector;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Hilal
@@ -8,4 +11,10 @@ package com.example.Software;
  * To change this template use File | Settings | File Templates.
  */
 public class WikiTextParser {
+    private String wikiText = null;
+    private Vector<String> pageCats = null;
+    private Vector<String> pageLinks = null;
+    private HashMap<String,Vector> pageLinksWithTexts = null;
+    private boolean redirect = false;
+    private String redirectString = null;
 }

@@ -142,8 +142,10 @@
       <file leaf-file-name="WikiTextParser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.2562814">
-              <folding />
+            <state line="18" column="41" selection-start="533" selection-end="533" vertical-scroll-proportion="0.5125628">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,12 +169,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java" />
         <option value="$PROJECT_DIR$/src/com/example/Software/InfoBox.java" />
         <option value="$PROJECT_DIR$/res/layout/liste.xml" />
         <option value="$PROJECT_DIR$/res/layout/anamain.xml" />
         <option value="$PROJECT_DIR$/src/com/example/Software/ListeEkran.java" />
         <option value="$PROJECT_DIR$/src/com/example/Software/AnaMain.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java" />
       </list>
     </option>
   </component>
@@ -572,7 +574,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="17" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -593,7 +597,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="17" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -614,7 +620,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="27" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -668,8 +676,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.2562814">
-          <folding />
+        <state line="18" column="41" selection-start="533" selection-end="533" vertical-scroll-proportion="0.5125628">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
