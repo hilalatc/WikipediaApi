@@ -121,11 +121,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnaMain.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AnaMain.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="23" column="65" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6549414">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,10 +141,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WikiTextParser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WikiTextParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="63" selection-start="673" selection-end="673" vertical-scroll-proportion="0.59799">
+            <state line="21" column="63" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,8 +175,8 @@
         <option value="$PROJECT_DIR$/res/layout/liste.xml" />
         <option value="$PROJECT_DIR$/res/layout/anamain.xml" />
         <option value="$PROJECT_DIR$/src/com/example/Software/ListeEkran.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Software/AnaMain.java" />
         <option value="$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Software/AnaMain.java" />
       </list>
     </option>
   </component>
@@ -652,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/ListeEkran.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="20" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
@@ -675,7 +670,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="63" selection-start="673" selection-end="673" vertical-scroll-proportion="0.59799">
+        <state line="21" column="63" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="65" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6549414">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
