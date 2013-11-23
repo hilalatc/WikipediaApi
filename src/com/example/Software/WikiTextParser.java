@@ -2,6 +2,7 @@ package com.example.Software;
 
 import java.util.HashMap;
 import java.util.Vector;
+import java.util.regex.Pattern;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,4 +18,11 @@ public class WikiTextParser {
     private HashMap<String,Vector> pageLinksWithTexts = null;
     private boolean redirect = false;
     private String redirectString = null;
+    private static Pattern redirectPattern =
+            Pattern.compile("#REDIRECT\\s+\\[\\[(.*?)\\]\\]");
+    private boolean stub = false;
+    private boolean disambiguation = false;
+    private static Pattern stubPattern = Pattern.compile("\\-stub\\}\\}");
+    private static Pattern disambCatPattern = Pattern.compile("\\{\\{disambig\\}\\}");
+    private InfoBox infoBox = null;
 }
