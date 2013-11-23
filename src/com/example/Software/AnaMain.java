@@ -20,4 +20,8 @@ public class AnaMain extends Activity {
 
     HashMap<String, String> map;
     ArrayList<HashMap<String, String>> List;
+
+    String stringarray[]={"Albert%20Einstein","Anders%20Celsius","Niels%20Henrik%20Abel",
+            "Galileo%20Galilei","Charles%20Darwin","Thomas%20Edison",
+            "Socrates","Thales"};
 }
