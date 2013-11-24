@@ -1,6 +1,7 @@
 package com.example.Software;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -34,5 +35,8 @@ public class AnaMain extends Activity {
 
         tvname=(TextView)findViewById(R.id.textView);
         image=(ImageView)findViewById(R.id.imageView);
+
+        //Myactivityden position değerini alıyorum.
+        Intent myLocalIntent2 = getIntent();
     }
 }
