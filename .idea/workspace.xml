@@ -28,6 +28,9 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="a3f71fcf-1109-4ab3-972e-5a1122871849" time="1384957833446" ignored="false" />
     <file path="/Dummy.txt" changelist="a3f71fcf-1109-4ab3-972e-5a1122871849" time="1385144375542" ignored="false" />
+    <file path="$USER_HOME$/Desktop/LocationRouteDirectionMapV2/LocationRouteDirectionMapV2/gen/in/wptrafficanalyzer/locationroutedirectionmapv2/R.java" changelist="a3f71fcf-1109-4ab3-972e-5a1122871849" time="1385290221539" ignored="false" />
+    <file path="$USER_HOME$/Desktop/LocationRouteDirectionMapV2/LocationRouteDirectionMapV2/gen/in/wptrafficanalyzer/locationroutedirectionmapv2/Manifest.java" changelist="a3f71fcf-1109-4ab3-972e-5a1122871849" time="1385290221539" ignored="false" />
+    <file path="$USER_HOME$/Desktop/LocationRouteDirectionMapV2/LocationRouteDirectionMapV2/gen/in/wptrafficanalyzer/locationroutedirectionmapv2/BuildConfig.java" changelist="a3f71fcf-1109-4ab3-972e-5a1122871849" time="1385290371122" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,32 +102,32 @@
       </file>
       <file leaf-file-name="liste.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/liste.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="anamain.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/anamain.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AnaMain.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="33" selection-start="690" selection-end="690" vertical-scroll-proportion="0.7118928">
+            <state line="33" column="5" selection-start="927" selection-end="927" vertical-scroll-proportion="0.91122276">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,9 +148,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="63" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -213,6 +214,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,7 +286,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -575,9 +576,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="17" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -598,9 +597,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="17" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -621,9 +618,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="27" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -671,15 +666,13 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="63" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="33" selection-start="690" selection-end="690" vertical-scroll-proportion="0.7118928">
+        <state line="33" column="5" selection-start="927" selection-end="927" vertical-scroll-proportion="0.91122276">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,7 @@
 package com.example.Software;
 
 import android.app.Activity;
+import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -24,4 +25,11 @@ public class AnaMain extends Activity {
     String stringarray[]={"Albert%20Einstein","Anders%20Celsius","Niels%20Henrik%20Abel",
             "Galileo%20Galilei","Charles%20Darwin","Thomas%20Edison",
             "Socrates","Thales"};
+    public static final String KEY_NAME = "name";
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.anamain);
+    }
 }
