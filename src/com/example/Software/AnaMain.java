@@ -38,5 +38,9 @@ public class AnaMain extends Activity {
 
         //Myactivityden position değerini alıyorum.
         Intent myLocalIntent2 = getIntent();
+        Bundle myBundle = myLocalIntent2.getExtras();
+        int val1 = myBundle.getInt("val1");
+
+
     }
 }
