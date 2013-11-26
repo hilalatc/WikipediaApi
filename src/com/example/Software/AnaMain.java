@@ -42,28 +42,43 @@ public class AnaMain extends Activity {
         int val1 = myBundle.getInt("val1");
 
         if(val1==0){
+            parseXML(stringarray[0]);
             image.setImageResource(R.drawable.einstein);
         }else if (val1==1){
+            parseXML(stringarray[1]);
             image.setImageResource(R.drawable.celcius);
         }else if (val1==2){
+            parseXML(stringarray[2]);
             image.setImageResource(R.drawable.abel);
         }else if (val1==3){
+            parseXML(stringarray[3]);
             image.setImageResource(R.drawable.galilei);
         }else if (val1==4){
+            parseXML(stringarray[4]);
             image.setImageResource(R.drawable.darwin);
         }else if (val1==5){
+            parseXML(stringarray[5]);
             image.setImageResource(R.drawable.edison);
         }else if (val1==6){
+            parseXML(stringarray[6]);
             image.setImageResource(R.drawable.socrates);
         }else if (val1==7){
+            parseXML(stringarray[7]);
             image.setImageResource(R.drawable.thales);
         }else if (val1==8){
+            parseXML(stringarray[8]);
             image.setImageResource(R.drawable.einstein);
         }else if (val1==9){
+            parseXML(stringarray[9]);
             image.setImageResource(R.drawable.einstein);
         }
 
+        textGoster();
+    }
+    public void parseXML(String title) {
 
+    }
+    public void textGoster(){
 
     }
 }
