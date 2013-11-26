@@ -41,6 +41,29 @@ public class AnaMain extends Activity {
         Bundle myBundle = myLocalIntent2.getExtras();
         int val1 = myBundle.getInt("val1");
 
+        if(val1==0){
+            image.setImageResource(R.drawable.einstein);
+        }else if (val1==1){
+            image.setImageResource(R.drawable.celcius);
+        }else if (val1==2){
+            image.setImageResource(R.drawable.abel);
+        }else if (val1==3){
+            image.setImageResource(R.drawable.galilei);
+        }else if (val1==4){
+            image.setImageResource(R.drawable.darwin);
+        }else if (val1==5){
+            image.setImageResource(R.drawable.edison);
+        }else if (val1==6){
+            image.setImageResource(R.drawable.socrates);
+        }else if (val1==7){
+            image.setImageResource(R.drawable.thales);
+        }else if (val1==8){
+            image.setImageResource(R.drawable.einstein);
+        }else if (val1==9){
+            image.setImageResource(R.drawable.einstein);
+        }
+
+
 
     }
 }
