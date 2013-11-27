@@ -34,7 +34,10 @@ public class WikiTextParser {
             if(matcher.groupCount() == 1)
                 redirectString = matcher.group(1);
         }
-
+        matcher = stubPattern.matcher(wikiText);
+        stub = matcher.find();
+        matcher = disambCatPattern.matcher(wikiText);
+        disambiguation = matcher.find();
     }
 
 
