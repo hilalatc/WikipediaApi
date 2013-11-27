@@ -5,7 +5,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+import org.xml.sax.SAXException;
 
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
+import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -76,6 +80,11 @@ public class AnaMain extends Activity {
         textGoster();
     }
     public void parseXML(String title) {
+
+        String gelenurl = "http://en.wikipedia.org/w/api.php?action=query&prop=revisions&format=xml&rvprop=timestamp%7Cuser%7Ccontent&rvlimit=10&titles="+title;
+
+
+
 
     }
     public void textGoster(){

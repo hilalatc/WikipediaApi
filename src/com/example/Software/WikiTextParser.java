@@ -2,6 +2,7 @@ package com.example.Software;
 
 import java.util.HashMap;
 import java.util.Vector;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
@@ -25,4 +26,16 @@ public class WikiTextParser {
     private static Pattern stubPattern = Pattern.compile("\\-stub\\}\\}");
     private static Pattern disambCatPattern = Pattern.compile("\\{\\{disambig\\}\\}");
     private InfoBox infoBox = null;
+    public WikiTextParser(String wtext) {
+        wikiText = wtext;
+        Matcher matcher = redirectPattern.matcher(wikiText);
+        if(matcher.find()) {
+            redirect = true;
+            if(matcher.groupCount() == 1)
+                redirectString = matcher.group(1);
+        }
+
+    }
+
+
 }
