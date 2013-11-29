@@ -5,10 +5,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
+import java.io.StringReader;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -83,9 +89,48 @@ public class AnaMain extends Activity {
 
         String gelenurl = "http://en.wikipedia.org/w/api.php?action=query&prop=revisions&format=xml&rvprop=timestamp%7Cuser%7Ccontent&rvlimit=10&titles="+title;
 
+        try {
+            String xml = getXmlResponse(gelenurl);
+
+            DocumentBuilderFactory dFactory = DocumentBuilderFactory
+                    .newInstance();
+            DocumentBuilder dBuilder = dFactory.newDocumentBuilder();
+            InputSource is = new InputSource();
+            is.setCharacterStream(new StringReader(xml));
+
+            Document document = dBuilder.parse(is);
+            // api query revisions yada rev gibi elemanları ismiyle bu şekilde alabilirsin
+            //ben burda rev'i denedim
+            NodeList information = document
+                    .getElementsByTagName("rev");
 
 
 
+
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+    // url den xml i string olarak çeken fonksiyon
+    public String getXmlResponse(String _url) {
+
+        String xml = null;
+
+        try {
+
+
+        } catch (Exception e) {
+            return "SERVER_ERROR";
+        }
+
+        return xml;
     }
     public void textGoster(){
 

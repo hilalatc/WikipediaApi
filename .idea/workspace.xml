@@ -137,13 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnaMain.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AnaMain.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="2706" selection-end="2706" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="124" column="70" selection-start="4146" selection-end="4146" vertical-scroll-proportion="1.145548">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,10 +155,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WikiTextParser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WikiTextParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="40" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.91457283">
+            <state line="39" column="40" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -190,8 +188,8 @@
         <option value="$PROJECT_DIR$/res/layout/anamain.xml" />
         <option value="$PROJECT_DIR$/res/layout/liste.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/Software/AnaMain.java" />
         <option value="$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Software/AnaMain.java" />
       </list>
     </option>
   </component>
@@ -228,8 +226,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,6 +296,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,8 +314,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.Software">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -352,19 +350,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -391,6 +376,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -680,18 +678,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2706" selection-end="2706" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="39" column="40" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="40" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.91457283">
+        <state line="124" column="70" selection-start="4146" selection-end="4146" vertical-scroll-proportion="1.145548">
           <folding />
         </state>
       </provider>
