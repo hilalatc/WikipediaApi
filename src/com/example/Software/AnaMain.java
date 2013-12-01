@@ -5,6 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
@@ -124,6 +128,14 @@ public class AnaMain extends Activity {
         String xml = null;
 
         try {
+            HttpPost httpPost = new HttpPost(_url);
+            HttpParams httpParameters = new BasicHttpParams();
+
+            int timeoutConnection = 7000;
+            HttpConnectionParams.setConnectionTimeout(httpParameters, timeoutConnection);
+
+            int timeoutSocket = 7000;
+            HttpConnectionParams.setSoTimeout(httpParameters, timeoutSocket);
 
 
         } catch (Exception e) {
