@@ -158,6 +158,32 @@ public class AnaMain extends Activity {
         return xml;
     }
     public void textGoster(){
+        String key2,value2;
+        String name="";
+        HashMap<String, String> m=new HashMap<String,String>();
+        for (int k=0;k<List.size();k++){
+            m = List.get(k);//it will get the first HashMap Stored in array list
+            //int i = 0;
+//            Iterator it = m.entrySet().iterator();
+//            while (it.hasNext()) {
+//                HashMap.Entry pairs = (HashMap.Entry)it.next();
+//                System.out.println(pairs.getKey() + " = " + pairs.getValue());
+//                tvname.append(pairs.getKey()+" "+pairs.getValue()+"\n");
+//                //it.remove(); // avoids a ConcurrentModificationException
+//            }
+
+            String strArr[] = new String[m.size()];
+            int i=0;
+            boolean exists = m.containsKey("name");
+            boolean exists1 = m.containsKey("birth_date");
+            boolean exists2 = m.containsKey("death_date");
+            boolean exists3 = m.containsKey("residence");
+            boolean exists4= m.containsKey("citizenship");
+            boolean exists5= m.containsKey("ethnicity");
+            boolean exists6= m.containsKey("thesis_title");
+            boolean exists7= m.containsKey("thesis_year");
+            boolean exists8= m.containsKey("caption");
+        }
 
     }
 }

@@ -141,8 +141,10 @@
       <file leaf-file-name="AnaMain.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="51" selection-start="5369" selection-end="5369" vertical-scroll-proportion="0.74659866">
-              <folding />
+            <state line="185" column="9" selection-start="6775" selection-end="6775" vertical-scroll-proportion="0.9421769">
+              <folding>
+                <element signature="e#5603#5618#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -689,8 +691,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="51" selection-start="5369" selection-end="5369" vertical-scroll-proportion="0.74659866">
-          <folding />
+        <state line="185" column="9" selection-start="6775" selection-end="6775" vertical-scroll-proportion="0.9421769">
+          <folding>
+            <element signature="e#5603#5618#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
