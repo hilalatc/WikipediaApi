@@ -138,10 +138,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnaMain.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AnaMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="0" selection-start="5744" selection-end="5744" vertical-scroll-proportion="0.51870745">
+            <state line="165" column="0" selection-start="5744" selection-end="5744" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#5603#5618#0" expanded="true" />
               </folding>
@@ -167,10 +167,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/Software/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+            <state line="45" column="5" selection-start="1173" selection-end="1173" vertical-scroll-proportion="1.2163062">
               <folding />
             </state>
           </provider>
@@ -193,6 +193,7 @@
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/Software/WikiTextParser.java" />
         <option value="$PROJECT_DIR$/src/com/example/Software/AnaMain.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Software/MyActivity.java" />
       </list>
     </option>
   </component>
@@ -645,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Software/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/anamain.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -691,10 +685,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Software/AnaMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="0" selection-start="5744" selection-end="5744" vertical-scroll-proportion="0.51870745">
+        <state line="165" column="0" selection-start="5744" selection-end="5744" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#5603#5618#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Software/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="5" selection-start="1173" selection-end="1173" vertical-scroll-proportion="1.2163062">
+          <folding />
         </state>
       </provider>
     </entry>
