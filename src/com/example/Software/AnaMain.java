@@ -163,14 +163,6 @@ public class AnaMain extends Activity {
         HashMap<String, String> m=new HashMap<String,String>();
         for (int k=0;k<List.size();k++){
             m = List.get(k);//it will get the first HashMap Stored in array list
-            //int i = 0;
-//            Iterator it = m.entrySet().iterator();
-//            while (it.hasNext()) {
-//                HashMap.Entry pairs = (HashMap.Entry)it.next();
-//                System.out.println(pairs.getKey() + " = " + pairs.getValue());
-//                tvname.append(pairs.getKey()+" "+pairs.getValue()+"\n");
-//                //it.remove(); // avoids a ConcurrentModificationException
-//            }
 
             String strArr[] = new String[m.size()];
             int i=0;
@@ -183,6 +175,26 @@ public class AnaMain extends Activity {
             boolean exists6= m.containsKey("thesis_title");
             boolean exists7= m.containsKey("thesis_year");
             boolean exists8= m.containsKey("caption");
+            if (exists==true){
+                tvname.append("NAME      "+m.get("name")+"\n");
+            } else if (exists1==true){
+                tvname.append("BIRTH DATE "+m.get("birth_date")+"\n");
+            } else if (exists2==true){
+                tvname.append("DEATH DATE "+m.get("death_date")+"\n");
+            } else if (exists3==true){
+                tvname.append("RESIDENCE "+m.get("residence")+"\n");
+            } else if (exists4==true){
+                tvname.append("CITIZENSHIP "+m.get("citizenship")+"\n");
+            } else if (exists5==true){
+                tvname.append("ETHNICITY "+m.get("ethnicity")+"\n");
+            }  else if (exists6==true){
+                tvname.append("THESISI "+m.get("thesis_title")+"\n");
+            } else if (exists7==true){
+                tvname.append(" "+m.get("thesis_year")+"\n");
+            } else if (exists8==true){
+                tvname.append("CAPTION "+m.get("caption")+"\n");
+            }
+
         }
 
     }
